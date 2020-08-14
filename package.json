@@ -1,7 +1,7 @@
 {
   "name": "aoligei",
   "version": "1.0.0",
-  "description": "",
+  "description": "react+antdesign",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,21 +9,36 @@
     "server": "webpack-dev-server --open"
   },
   "keywords": [],
-  "author": "",
+  "author": "zhangzhixia",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
+    "css-loader": "^4.2.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "less": "^3.12.2",
+    "less-loader": "^6.2.0",
+    "postcss-loader": "^3.0.0",
     "react-router-dom": "^5.2.0",
+    "style-loader": "^1.2.1",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
+    "autoprefixer": "^9.8.6",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router": "^5.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangzhixia/reactPC.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zhangzhixia/reactPC/issues"
+  },
+  "homepage": "https://github.com/zhangzhixia/reactPC#readme"
 }
